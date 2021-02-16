@@ -1,0 +1,117 @@
+@media(max-width: 1800px) {
+    .container-fluid {
+        max-width: 1600px;
+    }
+    .header-bottom {
+        margin: 110px auto;
+    }
+    .vert-line {
+        height: 26%;
+        left: 36%;
+    }
+    .footer-block {
+        width: 85%;
+    }
+    .footer-email {
+        margin-left: 85px;
+    }
+    .footer-img {
+        margin-bottom: 140px;
+    }
+}
+
+@media(max-width: 1600px) {
+    .container-fluid {
+        max-width: 1400px;
+    }
+    .wrap-container {
+        max-width: 1200px;
+    }
+    html {
+        font-size: 13px;
+    }
+    .header-bottom {
+        margin: 80px auto;
+    }
+    .vert-line {
+        height: 27%;
+    }
+    .line {
+        width: 8%;
+        border-bottom: 2px solid rgba(185, 185, 185, .3);
+    }
+    .physical-security {
+        width: 64%;
+        margin-top: -141px;
+        padding: 255px 45px 58px 0;
+    }
+    .second-block-line {
+        border-bottom: 2px solid rgba(185, 185, 185, .5);
+    }
+    .footer-img {
+        margin-bottom: 100px;
+    }
+    .footer-text {
+        margin-bottom: 60px;
+    }
+    .footer-line {
+        right: 30%;
+        height: 184%;
+    }
+}
+@media(max-width: 1400px) {
+    .container-fluid {
+        max-width: 1199px;
+    }
+    .wrap-container {
+        max-width: 1000px;
+    }
+    html {
+        font-size: 12px;
+    }
+    .header-link {
+        padding: 4px 0;
+        font-size: 1.2rem;
+        margin-left: -20px;
+    }
+    .header-menu {
+        margin-left: -30px;
+    }
+    .apple-btn, .google-btn {
+        width: 4%;
+    }
+    .header-bottom {
+        margin: 46px auto;
+    }
+    #security {
+        padding: 75px 0;
+    }
+    .physical-security {
+        margin-top: -180px;
+        padding-right: 25px;
+    }
+    .journals {
+        margin-bottom: 60px;
+    }
+    .notebook-second-block {
+        width: 62%;
+        margin-top: 90px;
+    }
+    .notebook-img {
+        right: -405px;
+        bottom: -149px;
+        width: 73%;
+    }
+    .second-block-links {
+        margin-bottom: 132px;
+    }
+    .second-block-links a {
+        margin-left: 10px;
+    }
+    .notebook-third-block {
+        padding: 70px 0;
+    }
+    .footer-block {
+        width: 90%;
+    }
+}
