@@ -112,9 +112,6 @@
         display: block;
     }
     .responsive-menu{
-        display: flex;
-        justify-content: space-between;
-        align-items: baseline;
         background: transparent;
     }
     .header-menu .navbar-expand-md .navbar-brand{
