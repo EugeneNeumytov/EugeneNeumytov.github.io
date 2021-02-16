@@ -8,15 +8,11 @@
     <link href="css/bootstrap-grid.min.css" rel="stylesheet">
     <link href="fonts/stylesheet.css" rel="stylesheet">
     <link href="fontawesome/css/all.min.css" type="text/css" rel="stylesheet">
-    <link href="OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css" type="text/css" rel="stylesheet">
-    <link href="OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css" type="text/css" rel="stylesheet">
     <link href="css/style.css" type="text/css" rel="stylesheet">
     <link href="css/responsive.css" type="text/css" rel="stylesheet">
 
 
     <script type="text/javascript" src="js/jquery-3.0.0.js"></script>
-    <script type="text/javascript" src="OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
-    <script type="text/javascript" src="js/customs.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
 </head>
 <body>
@@ -78,19 +74,31 @@
         <section class="banner-home">
             <div class="container">
                 <div class="row">
-                    <div class="owl-carousel" id="slider-banner">
-                        <div class="item">
-                            <h2>We Are</h2>
-                            <div class="text-slider">Creative</div>
+                    <div class="carousel slide" id="slider-banner" data-ride="carousel">
+
+
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <h2>We Are</h2>
+                                <div class="text-slider">Creative</div>
+                            </div>
+                            <div class="carousel-item">
+                                <h2>We Are</h2>
+                                <div class="text-slider">Creative</div>
+                            </div>
+                            <div class="carousel-item">
+                                <h2>We Are</h2>
+                                <div class="text-slider">Creative</div>
+                            </div>
                         </div>
-                        <div class="item">
-                            <h2>We Are</h2>
-                            <div class="text-slider">Creative</div>
-                        </div>
-                        <div class="item">
-                            <h2>We Are</h2>
-                            <div class="text-slider">Creative</div>
-                        </div>
+
+                        <!-- Left and right controls -->
+                        <a class="carousel-control-prev" href="#slider-banner" data-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </a>
+                        <a class="carousel-control-next" href="#slider-banner" data-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </a>
                     </div>
                 </div>
             </div>

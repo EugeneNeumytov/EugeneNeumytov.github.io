@@ -1,43 +1,31 @@
 @media(max-width: 1700px){
-    #slider-banner.owl-carousel .owl-nav .owl-prev{
-        left: -40px;
-        bottom: 400px;
+    #slider-banner .carousel-control-prev{
+        left: -100px;
     }
-    #slider-banner.owl-carousel .owl-nav .owl-next {
-        right: -40px;
-        bottom: 400px;
+    #slider-banner .carousel-control-next{
+        right: -100px;
     }
 }
 @media(max-width: 1370px){
-    #slider-banner.owl-carousel .owl-nav .owl-prev{
-        left: 40px;
-        bottom: 400px;
+    #slider-banner .carousel-control-prev{
+        left: 0;
     }
-    #slider-banner.owl-carousel .owl-nav .owl-next {
-        right: 40px;
-        bottom: 400px;
+    #slider-banner .carousel-control-next{
+        right: 0;
     }
 }
 @media(max-width: 1199px){
     .page{
         padding-bottom: 251px;
     }
-    #slider-banner.owl-carousel .owl-nav .owl-prev{
-        left: 20px;
-        bottom: 400px;
-    }
-    #slider-banner.owl-carousel .owl-nav .owl-next {
-        right: 20px;
-        bottom: 400px;
-    }
     #slider-banner{
         padding-top: 215px;
         padding-bottom: 0;
     }
-    #slider-banner .item h2{
+    #slider-banner h2{
         font-size: 100px;
     }
-    #slider-banner .item .text-slider{
+    #slider-banner .text-slider{
         font-size: 250px;
         margin-top: -50px;
     }
@@ -102,20 +90,12 @@
     #slider-banner{
         padding-top: 240px;
     }
-    #slider-banner .item h2{
+    #slider-banner  h2{
         font-size: 85px;
     }
-    #slider-banner .item .text-slider{
+    #slider-banner .text-slider{
         font-size: 195px;
         margin-top: -40px;
-    }
-    #slider-banner.owl-carousel .owl-nav .owl-prev{
-        left: 10px;
-        top: 360px;
-    }
-    #slider-banner.owl-carousel .owl-nav .owl-next {
-        right: 10px;
-        top: 360px;
     }
     .block2 {
         padding-top: 550px;
@@ -249,14 +229,6 @@
     .page {
         padding-bottom: 200px;
     }
-    #slider-banner.owl-carousel .owl-nav .owl-prev{
-        left: -15px;
-        top: 250px;
-    }
-    #slider-banner.owl-carousel .owl-nav .owl-next {
-        right: -15px;
-        top: 250px;
-    }
     .nav-menu .navbar-brand,
     .nav-menu .navbar-toggler{
         display: inherit;
@@ -300,10 +272,10 @@
     #slider-banner{
         padding-top: 225px;
     }
-    #slider-banner .item h2{
+    #slider-banner  h2{
         font-size: 50px;
     }
-    #slider-banner .item .text-slider {
+    #slider-banner .text-slider {
         font-size: 120px;
         margin-top: -25px;
     }
@@ -462,10 +434,10 @@
         padding-top: 220px;
         padding-bottom: 50px;
     }
-    #slider-banner .item h2{
+    #slider-banner  h2{
         font-size: 40px;
     }
-    #slider-banner .item .text-slider {
+    #slider-banner .text-slider {
         font-size: 100px;
         margin-top: -22px;
     }
@@ -501,14 +473,6 @@
     .nav-menu ul li.active a,
     .nav-menu ul li a:hover{
         padding-bottom: 15px;
-    }
-    #slider-banner.owl-carousel .owl-nav .owl-prev{
-        left: 40px;
-        top: 250px;
-    }
-    #slider-banner.owl-carousel .owl-nav .owl-next {
-        right: 40px;
-        top: 250px;
     }
     .block2{
         padding-top: 320px;
@@ -646,10 +610,10 @@
     .page {
         padding-bottom: 178px;
     }
-    #slider-banner .item h2 {
+    #slider-banner  h2 {
         font-size: 35px;
     }
-    #slider-banner .item .text-slider {
+    #slider-banner .text-slider {
         font-size: 70px;
         margin-top: -17px;
     }
